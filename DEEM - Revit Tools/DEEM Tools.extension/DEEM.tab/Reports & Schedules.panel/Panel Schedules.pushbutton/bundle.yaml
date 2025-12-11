@@ -1,0 +1,97 @@
+# panel_legend_export_config.yaml
+title: "Export Panel Legends"
+author: "Christopher + GPT-5"
+description: "Exports DEEM-formatted panel legends to Excel with logo and color mapping."
+
+# ---------------------------------------------------------------------------
+# Paths and General Settings
+# ---------------------------------------------------------------------------
+paths:
+  logo: "C:\\Users\\CBerndt\\OneDrive - DEEM, LLC\\Desktop\\PyRevit Stuff\\DEEM - Revit Tools\\DEEM Tools.extension\\lib\\DEEMlogo.png"
+  export_folder: ""  # Leave empty to prompt user for save location
+
+# ---------------------------------------------------------------------------
+# Panel Type Specific Settings
+# ---------------------------------------------------------------------------
+panel_settings:
+  default:
+    slots: 42
+    fed_from_text: "120/208 V - 3 Ph - 4 W"
+    phase_colors:
+      A: "#ff6666"
+      B: "#66b3ff"
+      C: "#66ff66"
+      N: "#ffff66"
+      G: "#bfbfbf"
+  "Main Panel":
+    slots: 48
+    fed_from_text: "480/277 V - 3 Ph - 4 W"
+    phase_colors:
+      A: "#ff9999"
+      B: "#99ccff"
+      C: "#99ff99"
+      N: "#ffff99"
+      G: "#cccccc"
+  "Sub Panel":
+    slots: 36
+    fed_from_text: "120/208 V - 3 Ph - 4 W"
+    phase_colors:
+      A: "#ff6666"
+      B: "#66b3ff"
+      C: "#66ff66"
+      N: "#ffff66"
+      G: "#bfbfbf"
+
+# ---------------------------------------------------------------------------
+# Excel Formatting Options
+# ---------------------------------------------------------------------------
+excel:
+  header_labels:
+    - "LOAD SERVED"
+    - "BRK"
+    - "CIR"
+    - "CIR"
+    - "BRK"
+    - "LOAD SERVED"
+
+  title_format:
+    bold: true
+    align: "center"
+    valign: "vcenter"
+    font_size: 14
+
+  fed_format:
+    bold: true
+    align: "left"
+
+  header_format:
+    bold: true
+    bg_color: "#CCCCCC"
+    align: "center"
+    border: 1
+
+  row_format:
+    border: 1
+    align: "center"
+
+  phase_format:
+    bold: true
+    align: "left"
+
+  logo_scale:
+    x: 0.3
+    y: 0.3
+
+# footer_text: "DEEM - Electrical Panel Legend"
+
+  footer_format:
+    italic: true
+    font_size: 10
+
+# ---------------------------------------------------------------------------
+# User Interaction Settings
+# ---------------------------------------------------------------------------
+user_prompt:
+  select_mode: true        # True = Ask user: single vs. all panels
+  select_folder: true      # True = Ask user where to save file
+  alert_on_complete: true  # True = Notify when export finishes

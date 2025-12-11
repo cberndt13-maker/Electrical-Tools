@@ -1,0 +1,14 @@
+title: "Count\nDevices"
+tooltip: |
+  ### ⚡ Electrical Fixture Counts
+
+  | Family : Type               | Host Count | Linked Count | Total |
+  |-----------------------------|------------|--------------|-------|
+  | Duplex Receptacle : GFI     | 28         | 32           | 60    |
+  | Light Fixture : Downlight   | 112        | 120          | 232   |
+  | Wall Switch : SPST          | 34         | 45           | 79    |
+
+  Total Fixtures — Host: 174 | Linked: 197 | Combined: 371
+icon: icon.png
+script: script.py
+tooltip_type: rich

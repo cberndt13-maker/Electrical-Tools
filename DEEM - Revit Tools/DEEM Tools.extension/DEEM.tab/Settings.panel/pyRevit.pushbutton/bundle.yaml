@@ -1,0 +1,36 @@
+# bundle title
+title: "pyRevit\nTab"
+#title: Orphaned Hangers
+ 
+# bundle tooltip
+tooltip: Hides and Unhides the pyRevit Tab.
+ 
+# highlight as new
+#highlight: new
+ 
+# highlight as updated
+#highlight: updated
+ 
+# bundle help url
+#help_url: "https://www.ferguson.com"
+ 
+# bundle author
+#author: David J. Foreman
+ 
+# minimium supported Revit version
+#min_revit_version: 2015
+ 
+# maximum supported Revit version
+#max_revit_version: 2018
+ 
+# Tools are active even when there are no documents available/open in Revit
+context: zero-doc
+ 
+# Tool activates when at least one element is selected
+#context: selection
+ 
+# Tool activates when all selected elements are of the given category, or categories
+#context: <category>
+ 
+# Set if tool is in beta
+is_beta: false
