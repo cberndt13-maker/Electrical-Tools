@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 __title__ = "Count\nElectrical\nFixtures"
-__author__ = "Christopher + GPT-5"
+__author__ = "Christopher Berndt"
 __doc__ = "Counts all Electrical Fixtures in the host and linked models, grouped by Family + Type, and exports to CSV or Excel."
 
 from pyrevit import revit, DB, script, forms
