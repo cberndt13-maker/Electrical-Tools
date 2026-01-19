@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(code:*)",
+      "Bash(copy \"D:\\PyRevit Stuff\\Electrical-Tools\\DEEM - Revit Tools\\DEEM Tools.extension\\DEEM.tab\\Drawing Sets.panel\\Revision.pulldown\\Create Revised Sheet Set.pushbutton\\icon.png\" \"D:\\PyRevit Stuff\\Electrical-Tools\\DEEM - Revit Tools\\DEEM Tools.extension\\DEEM.tab\\Drawing Sets.panel\\Revision.pulldown\\Set Default Publish Set.pushbutton\\icon.png\")"
+    ]
+  }
+}
