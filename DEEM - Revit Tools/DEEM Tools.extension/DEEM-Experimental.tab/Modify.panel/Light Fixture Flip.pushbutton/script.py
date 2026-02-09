@@ -4,9 +4,9 @@
 
 # Title : Light Fixture Flip
 
-pyRevit_tool_name = "Light Fixture Flip"
+pyRevit_tool_name = "Light\nFixture\nFlip"
 
-# Description : This tool will flip the work plane of selected light fixtures by type.
+# Description : This tool will flip the work plane of selected light fixtures by type. 
 
 # Author : Chris Berndt
 
