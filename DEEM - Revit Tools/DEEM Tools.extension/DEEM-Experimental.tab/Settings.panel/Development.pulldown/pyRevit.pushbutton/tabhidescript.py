@@ -18,9 +18,5 @@ if pyrevit_tab:
     # Toggle visibility
     if pyrevit_tab.IsVisible:
         pyrevit_tab.IsVisible = False
-        print('pyRevit tab hidden.')
     else:
         pyrevit_tab.IsVisible = True
-        print('pyRevit tab shown.')
-else:
-    print('pyRevit tab not found.')
