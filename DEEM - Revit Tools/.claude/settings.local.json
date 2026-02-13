@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"d:\\\\PyRevit Stuff\\\\Electrical-Tools\\\\DEEM - Revit Tools\\\\DEEM Tools.extension\\\\DEEM-Experimental.tab\\\\Settings.panel\\\\Development.pulldown\\\\Reload.pushbutton\")"
+    ]
+  }
+}
